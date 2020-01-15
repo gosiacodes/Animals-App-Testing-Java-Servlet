@@ -45,14 +45,18 @@ public class animalServlet extends HttpServlet {
 		
 		PrintWriter printWriter = response.getWriter();
 		
+		printWriter.print("<br />");
+		printWriter.print("<br />");
+		
 		if (animal.equals("cat"))
-			printWriter.print("<img src=cat.png");
+			printWriter.print("<img src=cat.png>");
 		else if (animal.equals("dog"))
 			printWriter.print("<img src=dog.png>");
 		else if (animal.equals("hamster"))
 			printWriter.print("<img src=hamster.png>");
 		else if (animal.equals("parrot"))
 			printWriter.print("<img src=parrot.png>");
+		
 		
 	}
 

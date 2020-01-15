@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>AnimalsIndex</title>
+<title>IndexAnimal</title>
 </head>
 <body>
-<p>Choose an animal you like most:</p>
+<h2>Choose an animal you like most:</h2>
 <br/>
 <form action ="<%= request.getContextPath() %>/animalServlet" method="post">
 	<input type="radio" name="animal" value="cat"> cat<br>

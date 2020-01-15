@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>AnimalsIndex</title>
 </head>
 <body>
 <p>Choose an animal you like most:</p>
